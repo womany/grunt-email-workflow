@@ -18,7 +18,7 @@ module.exports = {
     files: [{
       expand: true,
       flatten: true,
-      src: ['<%= paths.dist %>/*.html'],
+      src: ['<%= paths.dist %>/*.html.erb'],
       dest: '<%= paths.dist %>'
     }]
   }

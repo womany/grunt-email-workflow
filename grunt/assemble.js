@@ -1,6 +1,7 @@
 // Assembles your email content with HTML layout
 module.exports = {
   options: {
+    ext: '.html.erb',
     layoutdir: '<%= paths.src %>/layouts',
     partials: ['<%= paths.src %>/partials/**/*.hbs'],
     helpers: ['<%= paths.src %>/helpers/**/*.js'],
