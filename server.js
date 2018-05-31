@@ -33,7 +33,7 @@ function getTemplates() {
         templateFiles = fs.readdirSync(templateDir);
 
     templateFiles.forEach( function (file) {
-        if (file.substr(-5) === '.html.erb') {
+        if (file.substr(-9) === '.html.erb') {
           var contents = fs.readFileSync(templateDir + file, 'utf8');
 
           if (contents) {
