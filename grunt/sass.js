@@ -7,10 +7,7 @@ module.exports = {
       style: 'expanded',
       implementation: sass
     },
-    files: {
-      '<%= paths.src %>/css/home.css': '<%= paths.src %>/css/scss/home.scss',
-      '<%= paths.src %>/css/gender.css': '<%= paths.src %>/css/scss/gender.scss'
-    }
+    files: '<%= themes %>'
   },
 
   // This task compiles Sass for the browser-baed preview UI.
@@ -25,3 +22,4 @@ module.exports = {
     }
   }
 };
+

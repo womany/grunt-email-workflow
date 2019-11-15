@@ -1,0 +1,3 @@
+{
+  "<%= paths.src %>/css/main.css": "<%= paths.src %>/css/scss/main.scss"
+}

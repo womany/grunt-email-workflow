@@ -14,6 +14,8 @@ module.exports = function(grunt) {
         preview:    'preview'
       },
 
+      themes: grunt.file.readJSON('theme.json'),
+
       // secrets.json is ignored in git because it contains sensitive data
       // See the README for configuration settings
       secrets: grunt.file.readJSON('secrets.json')
