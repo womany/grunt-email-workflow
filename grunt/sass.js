@@ -8,7 +8,8 @@ module.exports = {
       implementation: sass
     },
     files: {
-      '<%= paths.src %>/css/main.css': '<%= paths.src %>/css/scss/main.scss'
+      '<%= paths.src %>/css/home.css': '<%= paths.src %>/css/scss/home.scss',
+      '<%= paths.src %>/css/gender.css': '<%= paths.src %>/css/scss/gender.scss'
     }
   },
 
