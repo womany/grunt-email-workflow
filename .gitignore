@@ -4,6 +4,7 @@ node_modules
 .secret
 *.css.map
 secrets.json
+theme.json
 dist/*
 !dist/.gitkeep
 preview/css
