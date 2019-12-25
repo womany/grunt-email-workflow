@@ -6,7 +6,7 @@ module.exports = {
   },
   preview_dist: {
     files: ['./dist/*'],
-    tasks: [],
+    tasks: ['compile-handlebars'],
     options: {
       livereload: true
     }
