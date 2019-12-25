@@ -37,6 +37,7 @@ serve:
   - 'default'
   - 'sass:preview'
   - 'autoprefixer:preview'
+  - 'compile-handlebars'
   - 'express'
   - 'open'
   - 'watch'
