@@ -6,7 +6,7 @@ module.exports = {
       cwd: '<%= paths.dist %>',  // set working folder / root to copy
       src: "*.html",
       dest: "../",
-      ext: '.html.erb'
+      ext: '.handlebars'
     }]
   }
 };
