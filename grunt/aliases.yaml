@@ -8,9 +8,13 @@ default:
   - 'imagemin'
   - 'replace:src_images'
 
-build:
+build_hbs:
   - 'default'
-  - 'copy'
+  - 'copy:handlebars'
+
+build_erb:
+  - 'default'
+  - 'copy:erb'
 
 # Use grunt send if you want to actually send the email to your inbox
 # $ grunt send --template=transaction.html
