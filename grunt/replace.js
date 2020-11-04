@@ -21,5 +21,28 @@ module.exports = {
       src: ['<%= paths.dist %>/*.html'],
       dest: '<%= paths.dist %>'
     }]
+  },
+
+  rails_var: {
+    options: {
+      usePrefix: false,
+      patterns: [
+        {
+          match: '</%',  // Matches </% xxxxx /%>
+          replacement: '<%'
+        },
+        {
+          match: '/%>',
+          replacement: '%>'
+        }
+      ]
+    },
+
+    files: [{
+      expand: true,
+      flatten: true,
+      src: ['<%= paths.dist %>/*.html'],
+      dest: '<%= paths.dist %>'
+    }]
   }
 };

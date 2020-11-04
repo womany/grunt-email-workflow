@@ -14,6 +14,8 @@ build_hbs:
 
 build_erb:
   - 'default'
+  - 'compile-handlebars'
+  - 'replace:rails_var'
   - 'copy:erb'
 
 # Use grunt send if you want to actually send the email to your inbox
