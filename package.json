@@ -32,6 +32,7 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-imagemin": "^4.0.0",
     "grunt-contrib-watch": "^1.1.0",
+    "grunt-csscomb": "^4.2.0",
     "grunt-express": "^1.4.1",
     "grunt-juice-email": "^0.1.4",
     "grunt-litmus": "^0.1.8",

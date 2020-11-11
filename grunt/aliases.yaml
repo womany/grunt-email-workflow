@@ -3,6 +3,7 @@
 default:
   - 'clean'
   - 'sass:dist'
+  - 'csscomb'
   - 'assemble'
   - 'juice'
   - 'imagemin'
