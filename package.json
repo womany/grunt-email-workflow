@@ -33,7 +33,7 @@
     "grunt-contrib-imagemin": "^4.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-express": "^1.4.1",
-    "grunt-juice-email": "^0.1.4",
+    "grunt-juice-email": "git+https://github.com/womany/grunt-juice-email.git",
     "grunt-litmus": "^0.1.8",
     "grunt-mailgun": "^2.0.1",
     "grunt-open": "^0.2.4",
